@@ -1,0 +1,30 @@
+{
+  "name": "lit-ts-starter",
+  "author": "atl3",
+  "version": "1.0.0",
+  "description": "Basic repo for creating apps with LitElement + TS delivered with Parcel.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.4.0",
+    "lit-element": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-typescript": "^7.7.2",
+    "parcel-bundler": "^1.6.1",
+    "typescript": "^3.7.2"
+  },
+  "keywords": [
+    "web components",
+    "shadow dom",
+    "litelement",
+    "custom elements",
+    "lit-html",
+    "parcel"
+  ]
+}
